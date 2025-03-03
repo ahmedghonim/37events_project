@@ -107,10 +107,16 @@ export default function Footer() {
                 {data && data.theme_options_data.footer_title}
               </h4>
               <a
-                href={`tel:${data && data.theme_options_data.footer_email}`}
+                href={`mailto:${data && data.theme_options_data.footer_email}`}
                 className="text-start"
               >
                 {data && data.theme_options_data.footer_email}
+              </a>
+              <a
+                href={`tel:${data && data.theme_options_data.footer_phone}`}
+                className="text-start mt-2"
+              >
+                {data && data.theme_options_data.footer_phone}
               </a>
             </div>
           </div>

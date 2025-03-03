@@ -144,7 +144,12 @@ button.navbar-toggler {
 }
 /* Animation styles */
 .animate-image-right {
-
+  opacity: 0; /* Initially hidden */
+  transform: translateY(-50px); /* Start position */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition */
+}
+.rhm-gn-navigation__button{
+  background-color: transparent !important;
 }
 .animate-image-right.visible {
   opacity: 1; /* Fully visible */
@@ -416,8 +421,10 @@ img.left-image {
   max-width: 200px;
 }
 
+
+
 img.animate-image-right {
-  /* max-width: 200px; */
+  max-width: 200px;
 }
 .company-details h4 {
   font-size: 100px;

@@ -30,17 +30,17 @@ function ProjectsAnimations({ data }) {
         <div className=" top-0 h-screen w-screen flex justify-center items-center">
           <motion.h2
             layout
-            className="!text-6xl !text-white font-bold z-10 "
+            className="!text-6xl !text-white font-bold z-10 w-full"
             style={{
               opacity, // Apply opacity transformation
               filter: blur, // Apply blur transformation
             }}
           >
             {data.custom_filed_data?.couterUpSection ? (
-              <div className="container">
+              <div className="">
                 <div className="row justify-content-center">
                   <div className="col-lg-10 col-md-10 text-center">
-                    <h5 className="text-white py-5 max-lg:text-3xl z-10 whitespace-nowrap">
+                    <h5 className="text-white py-5 max-lg:text-3xl z-10">
                       {
                         data.custom_filed_data.couterUpSection
                           .creating_timeless_experience
@@ -48,8 +48,8 @@ function ProjectsAnimations({ data }) {
                     </h5>
                   </div>
                 </div>
-                <div className="flex grid-cols-3 text-center mt-4 gap-6">
-                  <div className="col-lg-4 col-md-6 mb-4 max-lg:text-3xl w-[200px] text-end">
+                <div className="flex items-center justify-center text-center mt-4 gap-10">
+                  <div className=" mb-4 max-lg:text-3xl w-[180px]">
                     {data.custom_filed_data?.couterUpSection
                       ?.visitors_number && (
                       <h5 className="text-white">
@@ -63,7 +63,7 @@ function ProjectsAnimations({ data }) {
                       </p>
                     )}
                   </div>
-                  <div className="col-lg-4 col-md-6 mb-4 max-lg:text-3xl w-[200px] text-end">
+                  <div className="mb-4 max-lg:text-3xl w-[180px]">
                     {data.custom_filed_data?.couterUpSection
                       ?.satisfied_number && (
                       <h5 className="text-white">
@@ -84,7 +84,7 @@ function ProjectsAnimations({ data }) {
                       </p>
                     )}
                   </div>
-                  <div className="col-lg-4 col-md-6 mb-4 max-lg:text-3xl w-[200px] text-end">
+                  <div className="mb-4 max-lg:text-3xl w-[180px]">
                     {data.custom_filed_data?.couterUpSection
                       ?.projects_number && (
                       <h5 className="text-white">

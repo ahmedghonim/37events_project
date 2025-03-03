@@ -1,20 +1,19 @@
 "use client";
-import { useEffect, useContext } from "react";
-import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useContext, useEffect, useState } from "react";
 import "react-hamburger-menus/dist/style.css";
-import Navigation from "./Navigation";
-import { useLanguage } from "../hooks/useLanguage";
 import { ApiContext } from "../context/ApiProvider";
-import logoWhite from "./logo-white.png";
 import logoBlack from "./logo-black.png";
+import logoWhite from "./logo-white.png";
+import Navigation from "./Navigation";
 
 export default function Header() {
   //  const { language, toggleLanguage } = useLanguage();
   const pathName = usePathname();
-  const { push } = useRouter();
   const { data, isLoading, language, handleLanguage } = useContext(ApiContext);
-
+  const [menuOpen, setMenuOpen] = useState(false);
+  console.log("🚀 ~ Header ~ menuOpen:", menuOpen);
   const handleMenuWithLanguage = (e) => {
     e.preventDefault();
     handleLanguage();
@@ -39,8 +38,8 @@ export default function Header() {
     >
       <div className="container">
         <div className="row header">
-          <div className="logo-container-inner logo z-[10000] w-fit">
-            <Link href="/" className="z-[10000]">
+          <div className="logo-container-inner logo">
+            <Link href="/">
               <img
                 src={isHome ? blackLogo : whiteLogo}
                 alt="37 Events"
@@ -54,7 +53,7 @@ export default function Header() {
                 {language === "en" ? "عربي" : "EN"}
               </button>
             </div>*/}
-            <Navigation />
+            <Navigation menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           </div>
         </div>
       </div>

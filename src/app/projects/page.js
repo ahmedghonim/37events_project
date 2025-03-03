@@ -68,8 +68,22 @@ const Work = () => {
               data.post.slice(0, displayedProjects).map((post) => (
                 <div className="col-md-4 mb-4" key={post.postId}>
                   <div className="gallery-item">
-                  <div className="gallery-item-details">
-                    <h4>{post.project_city}, {post.project_year}</h4> 
+                    <div className="gallery-item-details">
+                      <h3>
+                        <Link
+                          href={`/projects/${post.slug}`}
+                          className="gallery-item-title"
+                        >
+                          {post.title}
+                        </Link>
+                      </h3>
+                      <h4>
+                        {post.project_city}, {post.project_year}
+                      </h4>
+                      <div
+                        class="truncated-text"
+                        dangerouslySetInnerHTML={{ __html: post.content }}
+                      />
                     </div>
                     <Link href={`/projects/${post.slug}`}>
                       <img src={post.featuredImage} alt={post.title} />

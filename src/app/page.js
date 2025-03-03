@@ -81,7 +81,7 @@ export default function HomePage() {
         </div>
         <AnimatedImage
           imageUrl="/react/images/microphone.png"
-          extraclass="animate-image-right visible !rotate-180"
+          extraclass="animate-image-right visible"
         />
       </section>
 
