@@ -1,0 +1,387 @@
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('../../../public/font/BebasNeueBold.eot');
+  src: url('../../../public/font/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/BebasNeueBold.woff2') format('woff2'),
+    url('../../../public/font/BebasNeueBold.woff') format('woff'),
+    url('../../../public/font/BebasNeueBold.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINNextLTArabicBold';
+  src: url('../../../public/font/DINNextLTArabic-Bold.eot');
+  src: url('../../../public/font/DINNextLTArabic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/DINNextLTArabic-Bold.woff2') format('woff2'),
+    url('../../../public/font/DINNextLTArabic-Bold.woff') format('woff'),
+    url('../../../public/font/DINNextLTArabic-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINNextLTArabicHeavy';
+  src: url('../../../public/font/DINNextLTArabic-Heavy.eot');
+  src: url('../../../public/font/DINNextLTArabic-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/DINNextLTArabic-Heavy.woff2') format('woff2'),
+    url('../../../public/font/DINNextLTArabic-Heavy.woff') format('woff'),
+    url('../../../public/font/DINNextLTArabic-Heavy.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINNextLTArabicMedium';
+  src: url('../../../public/font/DINNextLTArabic-Medium.eot');
+  src: url('../../../public/font/DINNextLTArabic-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/DINNextLTArabic-Medium.woff2') format('woff2'),
+    url('../../../public/font/DINNextLTArabic-Medium.woff') format('woff'),
+    url('../../../public/font/DINNextLTArabic-Medium.ttf') format('truetype');
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: 'DINNextLTArabicRegular';
+  src: url('../../../public/font/DINNextLTArabic-Regular.eot');
+  src: url('../../../public/font/DINNextLTArabic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/DINNextLTArabic-Regular.woff2') format('woff2'),
+    url('../../../public/font/DINNextLTArabic-Regular.woff') format('woff'),
+    url('../../../public/font/DINNextLTArabic-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINNextLTArabicLight';
+  src: url('../../../public/font/DINNEXTLTARABIC-LIGHT.eot');
+  src: url('../../../public/font/DINNEXTLTARABIC-LIGHT.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/DINNEXTLTARABIC-LIGHT.woff2') format('woff2'),
+    url('../../../public/font/DINNEXTLTARABIC-LIGHT.woff') format('woff'),
+    url('../../../public/font/DINNEXTLTARABIC-LIGHT.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+    font-family: 'DINNextLTArabicBlack';
+    src: url('../../../public/font/DINNextLTArabic-Black.eot');
+    src: url('../../../public/font/DINNextLTArabic-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../../public/font/DINNextLTArabic-Black.woff2') format('woff2'),
+        url('../../../public/font/DINNextLTArabic-Black.woff') format('woff'),
+        url('../../../public/font/DINNextLTArabic-Black.ttf') format('truetype'),
+        url('../../../public/font/DINNextLTArabic-Black.svg#DINNextLTArabic-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url('../../../public/font/Gotham-Bold.eot');
+  src: url('../../../public/font/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/Gotham-Bold.woff2') format('woff2'),
+    url('../../../public/font/Gotham-Bold.woff') format('woff'),
+    url('../../../public/font/Gotham-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url('../../../public/font/Gotham-Book.eot');
+  src: url('../../../public/font/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/Gotham-Book.woff2') format('woff2'),
+    url('../../../public/font/Gotham-Book.woff') format('woff'),
+    url('../../../public/font/Gotham-Book.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../../../public/font/Gotham-Medium.eot');
+  src: url('../../../public/font/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/Gotham-Medium.woff2') format('woff2'),
+    url('../../../public/font/Gotham-Medium.woff') format('woff'),
+    url('../../../public/font/Gotham-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GothamBlack';
+  src: url('../../../public/font/Gotham-Black.eot');
+  src: url('../../../public/font/Gotham-Black.eot');
+  src: url('../../../public/font/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/Gotham-Black.woff2') format('woff2'),
+    url('../../../public/font/Gotham-Black.woff') format('woff'),
+    url('../../../public/font/Gotham-Black.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamLight';
+  src: url('../../../public/font/Gotham-Light.eot');
+  src: url('../../../public/font/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/Gotham-Light.woff2') format('woff2'),
+    url('../../../public/font/Gotham-Light.woff') format('woff'),
+    url('../../../public/font/Gotham-Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'playlist-script';
+  src: url('../../../public/font/PlaylistScript.eot');
+  src: url('../../../public/font/PlaylistScript.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/PlaylistScript.woff2') format('woff2'),
+    url('../../../public/font/PlaylistScript.woff') format('woff'),
+    url('../../../public/font/PlaylistScript.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'playlist-script';
+  src: url('../../../public/font/PlaylistScript2.eot');
+  src: url('../../../public/font/PlaylistScript2.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/PlaylistScript2.woff2') format('woff2'),
+    url('../../../public/font/PlaylistScript2.woff') format('woff'),
+    url('../../../public/font/PlaylistScript2.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'playlist-script';
+  src: url('../../../public/font/PlaylistScript3.eot');
+  src: url('../../../public/font/PlaylistScript3.eot?#iefix') format('embedded-opentype'),
+    url('../../../public/font/PlaylistScript3.woff') format('woff'),
+    url('../../../public/font/PlaylistScript3.woff') format('woff'),
+    url('../../../public/font/PlaylistScript3.ttf') format('truetype');
+  font-display: swap;
+}
+
+/*** Fonts for ARABIC ****/
+@font-face {
+  font-family: 'Lama BlackItalic';
+  src: url('../../../public/font/LamaSans-BlackItalic.eot');
+  src: url('../../../public/font/LamaSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-BlackItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-BlackItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-BlackItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-BlackItalic.svg#LamaSans-BlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama Black';
+  src: url('../../../public/font/LamaSans-Black.eot');
+  src: url('../../../public/font/LamaSans-Black.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-Black.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-Black.woff') format('woff'),
+      url('../../../public/font/LamaSans-Black.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-Black.svg#LamaSans-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama Bold';
+  src: url('../../../public/font/LamaSans-Bold.eot');
+  src: url('../../../public/font/LamaSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-Bold.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-Bold.woff') format('woff'),
+      url('../../../public/font/LamaSans-Bold.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-Bold.svg#LamaSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama ExtraBold';
+  src: url('../../../public/font/LamaSans-ExtraBold.eot');
+  src: url('../../../public/font/LamaSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-ExtraBold.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-ExtraBold.woff') format('woff'),
+      url('../../../public/font/LamaSans-ExtraBold.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-ExtraBold.svg#LamaSans-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama SemiBold';
+  src: url('../../../public/font/LamaSans-SemiBold.eot');
+  src: url('../../../public/font/LamaSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-SemiBold.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-SemiBold.woff') format('woff'),
+      url('../../../public/font/LamaSans-SemiBold.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-SemiBold.svg#LamaSans-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama SemiBoldItalic';
+  src: url('../../../public/font/LamaSans-SemiBoldItalic.eot');
+  src: url('../../../public/font/LamaSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-SemiBoldItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-SemiBoldItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-SemiBoldItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-SemiBoldItalic.svg#LamaSans-SemiBoldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama Medium';
+  src: url('../../../public/font/LamaSans-Medium.eot');
+  src: url('../../../public/font/LamaSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-Medium.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-Medium.woff') format('woff'),
+      url('../../../public/font/LamaSans-Medium.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-Medium.svg#LamaSans-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama ThinItalic';
+  src: url('../../../public/font/LamaSans-ThinItalic.eot');
+  src: url('../../../public/font/LamaSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-ThinItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-ThinItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-ThinItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-ThinItalic.svg#LamaSans-ThinItalic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama BoldItalic';
+  src: url('../../../public/font/LamaSans-BoldItalic.eot');
+  src: url('../../../public/font/LamaSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-BoldItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-BoldItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-BoldItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-BoldItalic.svg#LamaSans-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama ExtraLight';
+  src: url('../../../public/font/LamaSans-ExtraLight.eot');
+  src: url('../../../public/font/LamaSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-ExtraLight.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-ExtraLight.woff') format('woff'),
+      url('../../../public/font/LamaSans-ExtraLight.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-ExtraLight.svg#LamaSans-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama Thin';
+  src: url('../../../public/font/LamaSans-Thin.eot');
+  src: url('../../../public/font/LamaSans-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-Thin.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-Thin.woff') format('woff'),
+      url('../../../public/font/LamaSans-Thin.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-Thin.svg#LamaSans-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama Regular';
+  src: url('../../../public/font/LamaSans-Regular.eot');
+  src: url('../../../public/font/LamaSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-Regular.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-Regular.woff') format('woff'),
+      url('../../../public/font/LamaSans-Regular.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-Regular.svg#LamaSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama MediumItalic';
+  src: url('../../../public/font/LamaSans-MediumItalic.eot');
+  src: url('../../../public/font/LamaSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-MediumItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-MediumItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-MediumItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-MediumItalic.svg#LamaSans-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama Light';
+  src: url('../../../public/font/LamaSans-Light.eot');
+  src: url('../../../public/font/LamaSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-Light.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-Light.woff') format('woff'),
+      url('../../../public/font/LamaSans-Light.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-Light.svg#LamaSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama ExtraBoldItalic';
+  src: url('../../../public/font/LamaSans-ExtraBoldItalic.eot');
+  src: url('../../../public/font/LamaSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-ExtraBoldItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-ExtraBoldItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-ExtraBoldItalic.svg#LamaSans-ExtraBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama ExtraLightItalic';
+  src: url('../../../public/font/LamaSans-ExtraLightItalic.eot');
+  src: url('../../../public/font/LamaSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-ExtraLightItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-ExtraLightItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-ExtraLightItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-ExtraLightItalic.svg#LamaSans-ExtraLightItalic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama RegularItalic';
+  src: url('../../../public/font/LamaSans-RegularItalic.eot');
+  src: url('../../../public/font/LamaSans-RegularItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-RegularItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-RegularItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-RegularItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-RegularItalic.svg#LamaSans-RegularItalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lama LightItalic';
+  src: url('../../../public/font/LamaSans-LightItalic.eot');
+  src: url('../../../public/font/LamaSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../../public/font/LamaSans-LightItalic.woff2') format('woff2'),
+      url('../../../public/font/LamaSans-LightItalic.woff') format('woff'),
+      url('../../../public/font/LamaSans-LightItalic.ttf') format('truetype'),
+      url('../../../public/font/LamaSans-LightItalic.svg#LamaSans-LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+

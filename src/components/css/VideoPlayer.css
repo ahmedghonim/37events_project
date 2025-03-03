@@ -1,0 +1,101 @@
+/***** Video CSS ***/
+.video-container {
+    position: relative;
+    display: block;
+  }
+  
+  .video-container video {
+    width: 100%;
+  }
+  
+  .spinner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .spinner {
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .spinner__svg {
+    width: 100%;
+    height: auto;
+    transform-box: fill-box;
+    fill: #2B3338;
+    stroke: #2B3338;
+    stroke-width: 0.05em;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .spinner__path {
+    transform-origin: 50% 50%;
+    animation: rotate 20s linear infinite;
+  }
+  
+  .spinner__arrow {
+    stroke-width: 0.075em;
+  }
+  
+  .spinner__text {
+    animation: rotateReverse 20s linear infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotateReverse {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  /* Optionally, the spinner itself can also rotate */
+  @keyframes rotate-spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .play-pause-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .play-icon,
+  .pause-icon {
+    font-size: 20px;
+  }
+  
+  
+  
