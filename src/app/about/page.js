@@ -1,4 +1,5 @@
 "use client";
+import AnimatedImage from "@/components/AnimateImage";
 import Shimmer from "@/components/Shimmer";
 import TextHighlight from "@/components/TextHighlight";
 import { API_BASE_URL } from "@/constants/api";
@@ -114,10 +115,9 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="bottom-right-image image-section">
-                <img
-                  src="/react/images/microphone.png"
-                  alt="Description of the image"
-                  className="img-fluid"
+                <AnimatedImage
+                  imageUrl="/react/images/microphone.png"
+                  extraclass="animate-image-right visible"
                 />
               </div>
             </div>

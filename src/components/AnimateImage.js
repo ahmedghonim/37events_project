@@ -1,7 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
-
-const AnimatedImage = ({imageUrl, extraclass}) => {
+const AnimatedImage = ({ imageUrl, extraclass }) => {
   const imageRef = useRef(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -31,7 +30,7 @@ const AnimatedImage = ({imageUrl, extraclass}) => {
         ref={imageRef}
         src={imageUrl}
         alt="37 Events"
-        className={`image-animate ${extraclass} ${isInView ? 'in-view' : ''}`}
+        className={`image-animate ${extraclass} ${isInView ? "in-view" : ""}`}
       />
     </div>
   );
