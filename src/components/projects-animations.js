@@ -49,7 +49,7 @@ function ProjectsAnimations({ data }) {
                   </div>
                 </div>
                 <div className="flex items-center justify-center text-center mt-4 gap-10">
-                  <div className=" mb-4 max-lg:text-3xl w-[180px]">
+                  <div className=" mb-4 max-lg:text-3xl w-[270px]">
                     {data.custom_filed_data?.couterUpSection
                       ?.visitors_number && (
                       <h5 className="text-white">
@@ -63,7 +63,7 @@ function ProjectsAnimations({ data }) {
                       </p>
                     )}
                   </div>
-                  <div className="mb-4 max-lg:text-3xl w-[180px]">
+                  <div className="mb-4 max-lg:text-3xl w-[270px]">
                     {data.custom_filed_data?.couterUpSection
                       ?.satisfied_number && (
                       <h5 className="text-white">
@@ -84,7 +84,7 @@ function ProjectsAnimations({ data }) {
                       </p>
                     )}
                   </div>
-                  <div className="mb-4 max-lg:text-3xl w-[180px]">
+                  <div className="mb-4 max-lg:text-3xl w-[270px]">
                     {data.custom_filed_data?.couterUpSection
                       ?.projects_number && (
                       <h5 className="text-white">
