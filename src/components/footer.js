@@ -108,15 +108,15 @@ export default function Footer() {
               </h4>
               <a
                 href={`mailto:${data && data.theme_options_data.footer_email}`}
-                className="text-start"
+                className="text-start mt-2 py-2"
               >
                 {data && data.theme_options_data.footer_email}
               </a>
               <a
                 href={`tel:${data && data.theme_options_data.footer_phone}`}
-                className="text-start mt-2"
+                className="text-start mt-2 py-2"
               >
-                {data && data.theme_options_data.footer_phone}
+                {data && data.theme_options_data.footer_number}
               </a>
             </div>
           </div>

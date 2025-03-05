@@ -70,14 +70,14 @@ export default function Navigation({ menuOpen, setMenuOpen }) {
               setMenuOpen(true);
             }
           }}
-          iconColor={menuOpen ? "white" : "black"}
+          iconColor={"white"}
         >
-          <div
-            className="relative flex lg:!p-10 !px-10 !pt-28 max-lg:flex-col h-screen bg-black"
-            ref={elementRef}
-          >
-            {" "}
-            {menuOpen && (
+          {menuOpen && (
+            <div
+              className="relative flex lg:!p-10 !px-10 !pt-28 max-lg:flex-col h-screen bg-black"
+              ref={elementRef}
+            >
+              {" "}
               <div className="absolute z-10 end-0 bottom-0 flex justify-end p-4">
                 <div className="flex flex-col items-center ">
                   <div className="follow-us-wrapper">
@@ -131,8 +131,6 @@ export default function Navigation({ menuOpen, setMenuOpen }) {
                   </div>
                 </div>
               </div>
-            )}
-            {menuOpen && (
               <div className="menu-wrapper flex flex-col justify-center z-[0]">
                 {language === "en"
                   ? menuItems.map(({ id, link, action, name }) => (
@@ -163,7 +161,7 @@ export default function Navigation({ menuOpen, setMenuOpen }) {
                         }
                       >
                         <Link
-                          className="max-md:!text-[20px] whitespace-nowrap pt-2"
+                          className="max-md:!text-[20px] whitespace-nowrap"
                           href={link}
                           onClick={action || handleLinkClick}
                         >
@@ -172,19 +170,19 @@ export default function Navigation({ menuOpen, setMenuOpen }) {
                       </li>
                     ))}
               </div>
-            )}
-            <div className=" flex flex-col justify-center relative">
-              <div className="flex flex-col items-center ">
-                <div className="header-map w-2/3 lg:max-h-[70vh]">
-                  <img
-                    src={data && data.theme_options_data.map_pin}
-                    alt="map"
-                    className="img-fluid object-contain max-h-[70vh]"
-                  />
+              <div className=" flex flex-col justify-center relative">
+                <div className="flex flex-col items-center ">
+                  <div className="header-map w-2/3 lg:max-h-[70vh]">
+                    <img
+                      src={data && data.theme_options_data.map_pin}
+                      alt="map"
+                      className="img-fluid object-contain max-h-[70vh]"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          )}
         </GhostNavbar>
       </div>
     </div>

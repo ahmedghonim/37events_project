@@ -608,7 +608,10 @@ body .lang-ar {
   transform: translate(0, -50%);
   padding-right: 0;
 }
+li {
 
+  padding-top: 20px !important;
+}
 .lang-ar .rightnav .followtext {
   margin: 15px 0;
 }
