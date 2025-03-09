@@ -113,7 +113,7 @@ export default function Footer() {
                 {data && data.theme_options_data.footer_email}
               </a>
               <a
-                href={`tel:${data && data.theme_options_data.footer_phone}`}
+                href={`tel:${data && data.theme_options_data.footer_number}`}
                 className="text-start mt-2 py-2"
               >
                 {data && data.theme_options_data.footer_number}
