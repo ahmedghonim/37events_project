@@ -172,7 +172,7 @@ export default function Navigation({ menuOpen, setMenuOpen }) {
               </div>
               <div className=" flex flex-col justify-center relative">
                 <div className="flex flex-col items-center ">
-                  <div className="header-map w-2/3 lg:max-h-[70vh]">
+                  <div className="header-map w-[80%] lg:max-h-[80vh]">
                     <img
                       src={data && data.theme_options_data.map_pin}
                       alt="map"
